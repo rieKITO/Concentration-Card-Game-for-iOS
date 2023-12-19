@@ -10,9 +10,9 @@ import UIKit
 class ConcentrationThemeChooserViewController: UIViewController {
     
     let themes = [
-        "Animals": ("🦊🐻🦁🦄🐝🦖🐵🐙🐬🐼🐸🕷", #colorLiteral(red: 0.5038267664, green: 0.6173603365, blue: 0.7628291561, alpha: 1), #colorLiteral(red: 0.401989106, green: 0.5202808558, blue: 0.7628291561, alpha: 1), #colorLiteral(red: 0.4469177772, green: 0.7628291561, blue: 0.6397354423, alpha: 1)),
-        "Food": ("🥐🥞🥓🌶🍥🍭🍞🍕🌮🍔🍙🍪", #colorLiteral(red: 0.8746629124, green: 0.724582227, blue: 0.3768953192, alpha: 1), #colorLiteral(red: 0.6614054569, green: 0.4781931886, blue: 0.2279217492, alpha: 1), #colorLiteral(red: 0.7056654824, green: 0.6020717044, blue: 0.7628291561, alpha: 1)),
-        "Figures": ("⬜️⬛️🟪🔻🔵🔘🔷🔶🟢🟣🔺🔳", #colorLiteral(red: 0.6544869723, green: 0.8746629124, blue: 0.3157800667, alpha: 1), #colorLiteral(red: 0.4349620581, green: 0.6105448921, blue: 0.2223440832, alpha: 1), #colorLiteral(red: 0.5349683594, green: 0.7890155451, blue: 0.8136897208, alpha: 1))
+        "Animals": ("🦊🐻🦁🦄🐝🦖🐵🐙🐬🐼🐸🕷",  #colorLiteral(red: 0.6784313725, green: 0.8470588235, blue: 0.9019607843, alpha: 1), #colorLiteral(red: 0.4039215686, green: 0.5215686275, blue: 0.7647058824, alpha: 1), #colorLiteral(red: 0.9411764706, green: 0.9725490196, blue: 1, alpha: 1)),
+        "Food": ("🥐🥞🥓🌶🍥🍭🍞🍕🌮🍔🍙🍪", #colorLiteral(red: 1, green: 0.6274509804, blue: 0.4784313725, alpha: 1), #colorLiteral(red: 1, green: 0.3882352941, blue: 0.2784313725, alpha: 1), #colorLiteral(red: 1, green: 0.9803921569, blue: 0.8039215686, alpha: 1)),
+        "Figures": ("⬜️⬛️🟪🔻🔵🔘🔷🔶🟢🟣🔺🔳", #colorLiteral(red: 0.5647058824, green: 0.9333333333, blue: 0.5647058824, alpha: 1), #colorLiteral(red: 0.1803921569, green: 0.5450980392, blue: 0.3411764706, alpha: 1), #colorLiteral(red: 0.9607843137, green: 0.9607843137, blue: 0.862745098, alpha: 1))
     ]
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
