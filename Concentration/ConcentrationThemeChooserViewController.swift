@@ -14,6 +14,10 @@ class ConcentrationThemeChooserViewController: UIViewController {
         "Food": ("🥐🥞🥓🌶🍥🍭🍞🍕🌮🍔🍙🍪", #colorLiteral(red: 1, green: 0.6274509804, blue: 0.4784313725, alpha: 1), #colorLiteral(red: 1, green: 0.3882352941, blue: 0.2784313725, alpha: 1), #colorLiteral(red: 1, green: 0.9803921569, blue: 0.8039215686, alpha: 1)),
         "Figures": ("⬜️⬛️🟪🔻🔵🔘🔷🔶🟢🟣🔺🔳", #colorLiteral(red: 0.5647058824, green: 0.9333333333, blue: 0.5647058824, alpha: 1), #colorLiteral(red: 0.1803921569, green: 0.5450980392, blue: 0.3411764706, alpha: 1), #colorLiteral(red: 0.9607843137, green: 0.9607843137, blue: 0.862745098, alpha: 1))
     ]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "Choose Theme" {

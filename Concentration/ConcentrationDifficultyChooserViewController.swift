@@ -11,6 +11,9 @@ class ConcentrationDifficultyChooserViewController: UIViewController {
     
     var theme: (String?, UIColor, UIColor, UIColor) = ("Default", .white, .white, .white)
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 
     let difficulties = [
         "Easy": 8,
